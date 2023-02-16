@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Termometro</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="caixa-pesquisa">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" name="" placeholder="Coloque sua localizacao">
+            <button class="fa-solid fa-magnifyng-glass"></button>
+        </div>
+
+        <div class="nao-encontrado">
+           <img src="img/image-not-found-icon.png" alt="nao encontrado"> 
+           <p>Localizacao Invalida</p>
+        </div>
+
+        <div class="caixa-clima">
+            <img src="" alt="">
+            <p class="temperatura"></p>
+            <p class="descricao"></p>
+        </div>
+
+        <div class="clima-detalhes">
+            <div class="umidade">
+                <i class="fa-solid fa-water"></i>
+                <div class="text"></div>
+                <span></span>
+                <p>Umidade</p>
+            </div>
+            <div class="vento">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text"></div>
+                <span></span>
+                <p>Velocidade do Vento</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
